@@ -1,0 +1,19 @@
+title: Rabid Chicken
+baseurl: ""
+description: >-
+  Website for Rabid Chicken LLC, a small production company based in Oklahoma City.
+email: rabchicken@gmail.com
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+highlighter: rouge
+markdown: kramdown
+plugins:
+  - jekyll-feed
+theme: minima
+url: "http://www.rabidchicken.com"

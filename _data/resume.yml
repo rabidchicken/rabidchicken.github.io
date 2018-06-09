@@ -1,0 +1,43 @@
+{
+  "skills": [
+    {"title": "3D Modeling","type": "basic"},
+    {"title": "Animation","type": "basic"},
+    {"title": "Art Direction / Consulting","type": "basic"},
+    {"title": "Copywriting / Editing","type": "basic"},
+    {"title": "Digital Retouching","type": "basic"},
+    {"title": "Drawing / Painting","type": "basic"},
+    {"title": "Photography","type": "basic"},
+    {"title": "Security","type": "basic"},
+    {"title": "Software Testing","type": "basic"},
+    {"title": "UI / UX","type": "basic"},
+    {"title": "Web Design / Development","type": "basic"},
+
+    {"title": "Adobe Illustrator CC","type": "software"},
+    {"title": "Adobe Photoshop CC","type": "software"},
+    {"title": "Apache Web Server 2.x","type": "software"},
+    {"title": "Drupal 6 / 7","type": "software"},
+    {"title": "Git Version Control","type": "software"},
+    {"title": "Indesign CC","type": "software"},
+    {"title": "JetBrains PHPStorm / WebStorm","type": "software"},
+    {"title": "Luxology Modo 10","type": "software"},
+    {"title": "Mac OSX 10.1.x - 10.11.x","type": "software"},
+    {"title": "Sketch 48.x","type": "software"},
+    {"title": "Sublime Text 3","type": "software"},
+    {"title": "Twitter Bootstrap 3 / 4 (2yrs)","type": "software"},
+
+    {"title": "Bash Script (3yrs)", "type": "language"},
+    {"title": "CSS 3.x / HTML 5.x (10yrs)", "type": "language"},
+    {"title": "Gulp / Grunt (3yrs)", "type": "language"},
+    {"title": "Javascript (15yrs)", "type": "language"},
+    {"title": "jQuery (6yrs)", "type": "language"},
+    {"title": "LESS / SASS (5yrs)", "type": "language"},
+    {"title": "MySQL / Maria DB (5yrs)", "type": "language"},
+    {"title": "Node JS / Node Package Manager (5yrs)", "type": "language"},
+    {"title": "PHP 5 / 7 (10yrs)", "type": "language"},
+    {"title": "ReactJS (1yr)", "type": "language"},
+    {"title": "SVG (4yrs)", "type": "language"},
+    {"title": "VueJS 2.x (1yr)", "type": "language"},
+  ]
+}
+
+

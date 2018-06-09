@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+    <div class="container">
+
+{% include header.html %}
+
+        <section class="main">
+
+{{ content }}
+
+        </section>
+
+{% include footer.html %}
+
+    </div>
+    <!--/container-->
+
+    <script src="{{"/js/jquery-3.1.1.slim.min.js" | relative_url}}"></script>
+    <script src="{{"/js/tether.min.js" | relative_url}}"></script>
+    <script src="{{"/js/bootstrap.min.js" | relative_url}}"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{{"/js/ie10-viewport-bug-workaround.js" | relative_url}}"></script>     
+
+
+</body>
+
+</html>
