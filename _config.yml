@@ -15,5 +15,5 @@ highlighter: rouge
 markdown: kramdown
 plugins:
   - jekyll-feed
-theme: minima
+theme: jekyll-theme-cayman
 url: "http://www.rabidchicken.com"
