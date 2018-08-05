@@ -30,6 +30,24 @@ hr
     background-color:#efac68
 }
 
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+    color:rgba(254, 214, 49, 0.8);
+    text-decoration: none
+}
+
+a:focus,
+a:hover
+{
+    color:rgba(254, 214, 49, 1.0);
+    text-decoration: underline
+}
+
+
 a#logo
 {
     display:inline-block
