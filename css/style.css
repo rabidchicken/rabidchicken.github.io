@@ -17,8 +17,10 @@ body
     color:#ccc;
     text-align: center;
     line-height: 2em;
-    background-image: url(/img/bgsp-crissXcross.png);
-    background-repeat: repeat;
+    background-image: url(/img/bg-spotlightsb.png), url(/img/bgsp-crissXcross.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center, center;
+    background-size: cover, 128px 128px;
 }
 
 h1,h2,h3
