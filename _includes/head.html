@@ -4,56 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-
-    <link rel="apple-touch-icon-precomposed" href="https://dennisdewey.com/apple-touch-icon.png">
-    <link rel="mask-icon" href="website_icon.svg" color="grey">
-
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/highlight.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/css/magnific-popup.css" | relative_url }}">
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2075829-7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-2075829-7');
-    </script>
-
-    <script type="text/javascript">
-      (function(document,navigator,standalone) {
-        // prevents links from apps from oppening in mobile safari
-        // this javascript must be the first script in your <head>
-        if ((standalone in navigator) && navigator[standalone]) {
-          var curnode, location=document.location, stop=/^(a|html)$/i;
-          document.addEventListener('click', function(e) {
-            curnode=e.target;
-            while (!(stop).test(curnode.nodeName)) {
-              curnode=curnode.parentNode;
-            }
-            // Condidions to do this only on links to your own app
-            // if you want all links, use if('href' in curnode) instead.
-            if(
-              'href' in curnode && // is a link
-              (chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
-              (  !(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
-                chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain
-            ) {
-              e.preventDefault();
-              location.href = curnode.href;
-            }
-          },false);
-        }
-      })(document,window.navigator,'standalone');
-    </script>
-
-
 
 </head>
